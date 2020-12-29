@@ -11,13 +11,13 @@
     <dependencies>
 
         <!--java: 程序包aQute.bnd.annotation.spi不存在-->
-        <!--<dependency>
+        <dependency>
             <groupId>biz.aQute.bnd</groupId>
             <artifactId>biz.aQute.bndlib</artifactId>
             <version>5.2.0</version>
-        </dependency>-->
+        </dependency>
 
-        <!--Java 11包javax.xml.bind不存在-->
+        <!--Java 11包javax.xml.bind不存在，11以上的jdk需要下面的包。-->
         <!--<dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
